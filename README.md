@@ -1,34 +1,63 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Tam Tam Arts - Site Web
 
-## Getting Started
+Ce document décrit le site web de Tam Tam Arts, développé avec Next.js et Tailwind CSS, et déployé sur Vercel.
 
-First, run the development server:
+## Table des matières
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+- [Démarrage](#démarrage)
+  - [Installation](#installation)
+  - [Utilisation](#utilisation)
+- [Fonctionnalités](#fonctionnalités)
+- [Contribuer](#contribuer)
+- [Licence](#licence)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Démarrage
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Ces instructions vous aideront à obtenir une copie du projet et à le faire fonctionner sur votre machine locale.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Installation
 
-## Learn More
+1. Clonez le dépôt :
 
-To learn more about Next.js, take a look at the following resources:
+   ```bash
+   git clone https://github.com/marvinboris/tamtamarts.git
+   cd tamtamarts
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. Installez les dépendances :
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+   ```bash
+   npm install
+   ```
 
-## Deploy on Vercel
+### Utilisation
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Démarrez le serveur de développement :
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+   ```bash
+   npm run dev
+   ```
+
+   Le site web sera accessible à l'adresse [http://localhost:3000](http://localhost:3000).
+
+2. Personnalisez et modifiez le site web selon vos besoins.
+
+## Fonctionnalités
+
+- Présentez ici les principales fonctionnalités de votre site web.
+- Mettez en avant ce qui rend votre site unique et précieux.
+- Utilisez des puces pour faciliter la lecture et la compréhension.
+
+## Contribuer
+
+Les contributions sont les bienvenues ! Si vous trouvez des problèmes ou avez des suggestions d'amélioration, n'hésitez pas à soumettre une pull request.
+
+1. Forkez le dépôt.
+2. Créez une nouvelle branche : `git checkout -b fonctionnalité/votre-nom-fonctionnalité`.
+3. Effectuez vos modifications : `git commit -m 'Ajouter une fonctionnalité'`.
+4. Poussez les modifications vers la branche : `git push origin fonctionnalité/votre-nom-fonctionnalité`.
+5. Soumettez une pull request.
+
+## Licence
+
+Ce projet est sous licence [MIT License](LICENSE). Mentionnez le type de licence que vous avez choisi pour votre site web.
