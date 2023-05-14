@@ -16,11 +16,11 @@ export default function HomeInterviews() {
           <iframe
             width="100%"
             height="100%"
-            src="https://youtu.be/T993Aw-SsPo"
+            src="https://www.youtube.com/embed/T993Aw-SsPo"
             title="YouTube video player"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowFullScreen
-          />
+          ></iframe>
         </div>
 
         <div className="mt-20 text-center">

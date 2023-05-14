@@ -73,7 +73,7 @@ const CardImage = ({ rank }: { rank: number }) => (
     src={"/images/cards-" + rank + ".webp"}
     alt="cards"
     className={classNames(
-      "h-full w-[50vw] absolute top-0 object-cover",
+      "h-full min-w-[49.4vw] absolute top-0 object-cover",
       rank % 2 === 1 ? "right-0" : "left-0"
     )}
   />
